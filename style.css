@@ -2,6 +2,9 @@ body{
     font-family: 'Supermercado One', cursive;
 }
 .container{
+    padding: 5px;
+}
+.flexible{
     display: flex;
 }
 .half-width{
@@ -18,5 +21,21 @@ body{
     border-radius: 10px;
 }
 .kid-photos{
-    width: 70%;
+    width: 100%;
+}
+.burger-types-headings{
+    text-align: center;
+    padding: 50px;
+}
+.one-third-width{
+    width: 30%;
+    margin: 10px;
+    padding: 20px;
+    background-color: whitesmoke;
+    border-radius: 15px;
+    box-shadow: 10px 10px 5px grey;
+}
+.burgers{
+    width: 100%;
+    border-radius: 15px;
 }
